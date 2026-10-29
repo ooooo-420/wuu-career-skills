@@ -1,0 +1,9 @@
+raw/
+wiki/
+.local/
+*.sqlite*
+*.pdf
+*.docx
+*.pptx
+.env*
+__pycache__/
