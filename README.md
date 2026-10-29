@@ -22,3 +22,9 @@ examples/ 中全部为虚构示意。运行 `python tests/validate_package.py` �
 ## 参考与来源
 知识架构受 [Andrej Karpathy 的 LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 启发，采用 raw/wiki/schema 与 ingest/query/lint 思路；本仓库另行设计职业证据和责任边界规则，未复制原文全文。
 技能设计参考作者提供的既有简历工作流与实际使用反馈，使用 AI 辅助编写代码和文档。不宣称 ATS、面试或录用保证。第三方宿主和模型仍有自己的使用要求。
+
+## 技能沿革
+- jd-resume-local：根据用户最初提供的 JD 定制简历 skill 及偏好更新原则重新设计，是主写作技能；保留 STAR、证据映射、双语对齐和迭代方法，不沿用参考作者的个人经历。
+- career-wiki-curator：为职业证据整理另行设计的配套技能。
+- resume-evidence-audit：参考开源校验/审稿方法重新实现的配套审稿技能。
+STAR 是问题/任务、本人行动、结果或交付物的逻辑，不要求每条机械四句，也不为量化捏造结果。
