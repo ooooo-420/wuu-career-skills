@@ -1,6 +1,6 @@
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-for name in ['jd-resume-local','career-wiki-curator']:
+for name in ['jd-resume-local','career-wiki-curator','resume-evidence-audit']:
     p=root/'skills'/name/'SKILL.md'
     text=p.read_text(encoding='utf-8')
     assert text.startswith('---'+chr(10))

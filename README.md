@@ -1,11 +1,13 @@
 # wuu Career Skills
 由 wuu 设计并与 AI 协作实现的职业证据与岗位定制技能。面向 PE/VC、FA、投行、战略分析、战略投资及企业管培生。
-## 两个技能如何协作
+## 三个技能如何协作
 1. career-wiki-curator：将本人材料整理为持久化的 Markdown Wiki，保存具体动作、方法、范围、产出、责任和来源；记录冲突。
 2. jd-resume-local：拆解 JD，用相关证据组织中英文简历，兼顾文本可解析性、硬要求覆盖和人工阅读效率。
+3. resume-evidence-audit：分别检查证据、金融岗位责任边界、机器可读性和人工阅读重点，含重新实现的文本校验脚本。
+三个 skill 均为本项目需求驱动、AI 辅助原创整合；外部实现的阅读、取舍与出处见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 网页工作台已在作者本机应用这些方法。本仓库发布可独立导入的通用技能，不包含网站运行时、本人简历、私有 Wiki、内部报告或登录凭据。
 ## 安装
-下载仓库 ZIP 并解压，将 skills 下的两个完整目录复制到支持 SKILL.md 的宿主技能目录。Codex 可放在用户目录 ~/.agents/skills/。不同宿主的导入菜单和目录不同；本包不是模型、插件安装器或独立 AI 服务。
+下载仓库 ZIP 并解压，将 skills 下的三个完整目录复制到支持 SKILL.md 的宿主技能目录。Codex 可放在用户目录 ~/.agents/skills/。不同宿主的导入菜单和目录不同；本包不是模型、插件安装器或独立 AI 服务。
 例如让支持本地技能的助手读取：`skills/career-wiki-curator/SKILL.md`，再使用 `skills/jd-resume-local/SKILL.md`。
 ## 使用
 - “按 career-wiki-curator 整理我提供的这份脱敏成果，保留具体操作和责任边界。”
